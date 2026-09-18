@@ -6,7 +6,7 @@ while True:
   dice = random.randint(1, 6)
   print("You rolled:", dice)
   
-  again = input("Roll again? (Yes/No): ")
+  again = input("Roll again? (yes/no): ")
   
   if again.lower() != "yes":
         break
